@@ -143,13 +143,15 @@ font-family: 'Roboto', sans-serif;
 .dfsg-d{
     font-weight: 400;
     font-size: 11px;
+    position: relative;
     max-width: 130px;
     text-transform: uppercase;
     text-align: center;
     color: #000;
     background: #fff;
     padding: 2px 2px 2px 2px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    top: 20px;
 }
 .card-cont>h1{
     font-weight: 700;
@@ -226,12 +228,16 @@ font-family: 'Roboto', sans-serif;
 .foot-promo{
     background:url("../img/ahf.png");
     background-repeat: no-repeat;
-    width: 1920;
-    height: 720;
+    position: absolute;
+    width: 100%;
+    height: 80%;
 }
 .foot-cont{
     justify-content: center;
     align-items: center;
+}
+.foot-promo{
+    position: absolute;
 }
 .foot-cont>h1{
     font-weight: 700;
@@ -263,6 +269,10 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.footer{
+    position: absolute;
+    top: 4935px;
 }
 .footer-cont{
     display: flex;
@@ -353,6 +363,7 @@ font-family: 'Roboto', sans-serif;
     cursor: pointer; 
     color: rgb(27, 27, 26);
     font-weight: 400;
+    margin-top: 40px;
 } 
 .Advantages-button2:hover{
     background-color: #1CA8C3; 
@@ -370,12 +381,16 @@ font-family: 'Roboto', sans-serif;
     padding-top: 96px; 
     justify-content: center;
     gap: 467px;
+
 } 
 .reqw{
     display: flex; 
     padding-top: 23px; 
     gap: 14px;
-} 
+}
+.req1{
+    margin-bottom: 40px;
+}
 .req-text{
     font-size: 22px;
     color: #1CA8C3;
